@@ -1,0 +1,6 @@
+Bracelet,Swarovski,1,21,Rosa,Swarovski
+Bracelet,Pandora,2,22,Anna,Pandora
+Bracelet,Fossil,3,23,Marra,B&B
+Necklace,Teilor,4,silver,Ella
+Necklace,Alora,5,gold,Mary
+Necklace,Tiffany,6,silver,Irra
