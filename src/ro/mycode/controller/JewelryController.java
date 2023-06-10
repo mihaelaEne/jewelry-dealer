@@ -28,7 +28,7 @@ public class JewelryController {
     public void load() {
         try {
             File file = new File("C:\\mycode\\OOP\\jewelry\\src\\ro\\mycode\\data\\jewelry.txt");
-            Scanner scanner1 = new Scanner(file);
+            Scanner scanner = new Scanner(file);
             while (scanner.hasNextLine()) {
                 String text = scanner.nextLine();
                 switch (text.split(",")[0]) {
