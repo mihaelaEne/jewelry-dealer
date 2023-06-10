@@ -36,7 +36,7 @@ public class Necklace extends Jewelry{
     public String toString(){
         String text="";
         text+="I am a necklace!"+"\n";
-        text+="id: "+super.getProducer()+"\n";
+        text+="id: "+super.getId()+"\n";
         text+="proucer: "+super.getProducer()+"\n";
         text+="material: "+this.material+"\n";
         text+="name: "+this.name;
@@ -44,6 +44,7 @@ public class Necklace extends Jewelry{
     }
 
     public Necklace(String prop){
+        super(prop);
         String [] split=prop.split(",");
         this.material=split[3];
         this.name=split[4];
