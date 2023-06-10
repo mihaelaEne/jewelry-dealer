@@ -46,7 +46,7 @@ public class Bracelet extends Jewelry {
     public String toString(){
         String text="";
         text+="I am a bracelet!"+"\n";
-        text+="id: "+super.getProducer()+"\n";
+        text+="id: "+super.getId()+"\n";
         text+="proucer: "+super.getProducer()+"\n";
         text+="size: "+this.size+"\n";
         text+="name: "+this.name+"\n";
@@ -54,6 +54,7 @@ public class Bracelet extends Jewelry {
         return text;
     }
     public Bracelet(String prop){
+        super(prop);
         String [] split=prop.split(",");
         this.size=Integer.parseInt(split[3]);
         this.name=split[4];
